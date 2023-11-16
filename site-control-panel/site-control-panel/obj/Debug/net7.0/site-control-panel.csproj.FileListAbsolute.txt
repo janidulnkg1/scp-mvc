@@ -360,3 +360,8 @@ C:\Users\Janidu Lankage\Documents\GitHub\scp-mvc\site-control-panel\site-control
 C:\Users\Janidu Lankage\Documents\GitHub\scp-mvc\site-control-panel\site-control-panel\obj\Debug\net7.0\site-control-panel.csproj.AssemblyReference.cache
 C:\Users\Janidu Lankage\Documents\GitHub\scp-mvc\site-control-panel\site-control-panel\obj\Debug\net7.0\site-control-panel.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Janidu Lankage\Documents\GitHub\scp-mvc\site-control-panel\site-control-panel\obj\Debug\net7.0\site-control-panel.csproj.CopyComplete
+C:\Users\Janidu Lankage\Documents\GitHub\scp-mvc\site-control-panel\site-control-panel\bin\Debug\net7.0\Antlr3.Runtime.dll
+C:\Users\Janidu Lankage\Documents\GitHub\scp-mvc\site-control-panel\site-control-panel\bin\Debug\net7.0\System.Web.Optimization.dll
+C:\Users\Janidu Lankage\Documents\GitHub\scp-mvc\site-control-panel\site-control-panel\bin\Debug\net7.0\Microsoft.Web.Infrastructure.dll
+C:\Users\Janidu Lankage\Documents\GitHub\scp-mvc\site-control-panel\site-control-panel\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Janidu Lankage\Documents\GitHub\scp-mvc\site-control-panel\site-control-panel\bin\Debug\net7.0\WebGrease.dll
