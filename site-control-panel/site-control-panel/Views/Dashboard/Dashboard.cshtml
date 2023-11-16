@@ -1,7 +1,111 @@
 ﻿@{
-    ViewData["Title"] = "Dashboard";
+    ViewData["Title"] = "SCP";
 }
 
-<h1>@ViewData["Title"]</h1>
+         <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 2</a>
+                        </li>
+           
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
-<p>Main Dashboard.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                    <div class="sidebar-sticky">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">
+                                    Link 1
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Link 2
+                                </a>
+                            </li>
+                  
+                        </ul>
+                    </div>
+                </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+            <div style="margin-bottom:25px; margin-top:25px">
+                <h4>i-series Configuration Settings</h4>
+                <form>
+                    <div class="form-group" style="margin-bottom:10px">
+                        <label for="ipAddress">AS400 IP</label>
+                        <input type="text" class="form-control" id="ipAddress" placeholder="Enter IP Address">
+                    </div>
+                    <div class="form-group" style="margin-bottom:10px">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter Username">
+                    </div>
+                    <div class="form-group" style="margin-bottom:10px">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                    </div>
+                    <div style="margin-top:10px;">
+                        <button type="button" class="btn btn-primary">Save Connection Details</button>
+                    </div>
+                    <div style="margin-top:10px;">
+                         <button type="button" class="btn btn-success">Check Connection</button>
+                    </div>
+                </form>
+            </div>
+
+            <div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Username</th>
+                            <th scope="col">Password</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>user1</td>
+                            <td>password1</td>
+                            <td>
+                            
+                                <button type="button" class="btn btn-primary">Edit</button>
+                                <button type="button" class="btn btn-danger">Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>user2</td>
+                            <td>password2</td>
+                            <td>
+                          
+                                <button type="button" class="btn btn-primary">Edit</button>
+                                <button type="button" class="btn btn-danger">Delete</button>
+                            </td>
+                        </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+            
+        </main>
+    </div>
+</div>
