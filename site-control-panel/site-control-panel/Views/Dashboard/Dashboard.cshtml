@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-    <title>Responsive Sidebar</title>
+    <title>RMeX SCP</title>
         <style>
             .sidebar {
                 position: fixed;
@@ -24,6 +24,11 @@
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
                 max-width:350px;
             }
+
+        .nav-link:hover {
+            background-color: #d9edfa; 
+            color: #fff; 
+        }
 
             .main-content {
                 margin-left: 220px; 
@@ -38,12 +43,12 @@
                         <ul class="nav flex-column">
                             <li class="nav-item">
                             <a class="nav-link active" href="#" style="font-size:large">
-                                <i class="bi bi-hdd-network"></i> <b>iSeries configuration</b>
+                                <i style="font-size:30px" class="bi bi-hdd-network"></i> <b>iSeries configuration</b>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#" style="font-size:large">
-                                <i class="bi bi-person-gear"></i>  <b>Server Configuration</b>
+                                <i style="font-size:30px" class="bi bi-person-gear"></i>  <b>Server Configuration</b>
                                 </a>
                             </li>
                   
@@ -55,38 +60,44 @@
 
                     <div style="margin-bottom:25px; margin-top:25px">
                         <h4>i-series Configuration Settings</h4>
-                        <form>
-                            <div class="form-group col-sm-5" style="margin-bottom:10px">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-2" style="margin-bottom:10px">
                                 <label for="ipAddress">AS400 IP</label>
-                                <input type="text" class="form-control" id="ipAddress" placeholder="Enter IP Address">
+                                <input type="text" class="form-control" id="ipAddress" placeholder="IP">
                             </div>
-                            <div class="form-group col-sm-5" style="margin-bottom:10px">
+                            <div class="form-group col-sm-2" style="margin-bottom:10px">
                                 <label for="username">Username</label>
-                                <input type="text" class="form-control" id="username" placeholder="Enter Username">
+                                <input type="text" class="form-control" id="username" placeholder="Username">
                             </div>
-                            <div class="form-group col-sm-5" style="margin-bottom:10px">
+                            <div class="form-group col-sm-3" style="margin-bottom:10px">
                                 <label for="password">Password</label>
-                                <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                                <input type="password" class="form-control" id="password" placeholder="Password">
                             </div>
-                            <div style="margin-top:10px;" >
+                        </div>
+                        <div class="form-row">
+                            <div style="margin-top:10px; margin-right:10px">
                                 <button type="button" class="btn btn-primary">Save Connection Details</button>
                             </div>
-                            <div style="margin-top:10px;" >
-                                 <button type="button" class="btn btn-success">Check Connection</button>
+                            <div style="margin-top:10px;">
+                                <button type="button" class="btn btn-success">Check Connection</button>
                             </div>
-                        </form>
+                        </div>
+                    </form>
                     </div>
 
                     <div style="margin-bottom:25px; margin-top:25px">
                         <h4>Add Client Settings</h4>
                         <form>
-                            <div class="form-group col-sm-2" style="margin-bottom:10px">
-                                <label for="clientid">Client ID</label>
-                                <input type="text" class="form-control" id="clientid" placeholder="Enter Client ID">
-                            </div>
-                            <div class="form-group col-sm-5" style="margin-bottom:10px">
-                                <label for="library">Library List</label>
-                                <input type="text" class="form-control" id="library" placeholder="Select Libraries">
+                            <div class="form-row">
+                                <div class="form-group col-sm-2" style="margin-bottom:10px">
+                                    <label for="clientid">Client ID</label>
+                                    <input type="text" class="form-control" id="clientid" placeholder="Enter Client ID">
+                                </div>
+                                <div class="form-group col-sm-4" style="margin-bottom:10px">
+                                    <label for="library">Library List</label>
+                                    <input type="text" class="form-control" id="library" placeholder="Select Libraries">
+                                </div>
                             </div>
                             <div style="margin-top:10px;">
                                 <button type="button" class="btn btn-primary">Save Client</button>
