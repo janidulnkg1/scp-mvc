@@ -20,3 +20,44 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    background-color: #f8f9fa;
+    transition: margin-left 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #d9edfa;
+    color: #fff;
+}
+
+.main-content {
+    margin-left: 0;
+    transition: margin-left 0.3s;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+
+    .sidebar.show {
+        margin-left: 0;
+    }
+
+    .main-content.show {
+        margin-left: 220px;
+    }
+}
