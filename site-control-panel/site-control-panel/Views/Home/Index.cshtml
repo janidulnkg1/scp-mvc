@@ -9,30 +9,31 @@
             <div class="card-body">
                 <h5 class="card-title mb-4" style="font-size: 1.8em;">Sign In</h5>
 
-                <div class="mb-3 row">
-                    <label for="username" class="col-sm-5 col-form-label"><b style="font-size: 1.2em;">Username:</b></label>
-                    <div class="col-sm-7">
-                        <input type="text" class="form-control" id="username" style="font-size: 1em;">
-                    </div>
-                </div>
-
-                <div class="mb-3 row">
-                    <label for="password" class="col-sm-5 col-form-label"><b style="font-size: 1.2em;">Password:</b></label>
-                    <div class="col-sm-7">
-                        <input type="password" class="form-control" id="password" style="font-size: 1em;">
-
-                        <div class="form-check mt-2">
-                            <input class="form-check-input" type="checkbox" id="togglePassword">
-                            <label class="form-check-label" for="togglePassword" style="font-size: 1.0em; margin-left:-280px;">
-                                Show password
-                            </label>
+                <form id="loginForm">
+                    <div class="mb-3 row">
+                        <label for="login-username" class="col-sm-5 col-form-label"><b style="font-size: 1.2em;">Username:</b></label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" id="login-username" name="login-username" style="font-size: 1em;">
                         </div>
                     </div>
-                </div>
 
-                <div class="text-center">
-                    <button type="button" class="btn btn-primary" style="font-size: 1.2em;">Log in</button>
-                </div>
+                    <div class="mb-3 row">
+                        <label for="login-password" class="col-sm-5 col-form-label"><b style="font-size: 1.2em;">Password:</b></label>
+                        <div class="col-sm-7">
+                            <input type="password" class="form-control" id="login-password" name="login-password" style="font-size: 1em;">
+                            <div class="form-check mt-2">
+                                <input class="form-check-input" type="checkbox" id="togglePassword">
+                                <label class="form-check-label" for="togglePassword" style="font-size: 1.0em; margin-left:-280px;">
+                                    Show password
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary" style="font-size: 1.2em;">Log in</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
