@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="Views\Dashboard\Dashboard.cshtml" />
+    <None Include="Views\Dashboard\IsConfiguration.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

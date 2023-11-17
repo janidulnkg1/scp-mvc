@@ -4,7 +4,7 @@ namespace site_control_panel.Controllers
 {
     public class DashboardController : Controller
     {
-        public IActionResult Dashboard()
+        public IActionResult IsConfiguration()
         {
             return View();
         }

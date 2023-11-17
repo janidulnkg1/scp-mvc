@@ -16,8 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Janidu Lankage\Documents\GitHub\scp-mvc\site-control-panel\site-control-panel
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Janidu Lankage/Documents/GitHub/scp-mvc/site-control-panel/site-control-panel/Views/Dashboard/Dashboard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERhc2hib2FyZC5jc2h0bWw=
+[C:/Users/Janidu Lankage/Documents/GitHub/scp-mvc/site-control-panel/site-control-panel/Views/Dashboard/IsConfiguration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXElzQ29uZmlndXJhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Janidu Lankage/Documents/GitHub/scp-mvc/site-control-panel/site-control-panel/Views/Home/Index.cshtml]
